@@ -1,1 +1,1 @@
-# agentc Typescript Tool Development Kit (TDK)
+# agentc Python Tool Development Kit (TDK)
