@@ -1,0 +1,19 @@
+{
+    "name": "agentc-sh-python-tdk",
+    "build": {
+        "dockerfile": "devcontainer.Dockerfile",
+        "context": "..",
+		"args": {
+			"VARIANT": "3.14-bookworm"
+		}
+    },
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				
+			]
+		}
+	},
+	"postCreateCommand": "prek install --install-hooks && uv sync",
+	"remoteUser": "dev"
+}
