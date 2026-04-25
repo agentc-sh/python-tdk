@@ -1,6 +1,6 @@
 [project]
 name = "agentc-tdk"
-version = "0.0.0"
+version = "0.1.0"
 description = "Python tool development kit for agentc"
 readme = "README.md"
 authors = [
