@@ -45,5 +45,12 @@ jobs:
           pip install gitlint
           git log -1 --pretty=%B | gitlint
 
+      - name: Lint DCO
+        uses: KineticCafe/actions-dco@v3.1.0
+        with:
+          config: |
+            comment = true
+            trailer-parsing = "lenient"
+
       - name: Lint code
         run: task python:lint
