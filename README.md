@@ -94,7 +94,7 @@ tool "get_weather" {
 }
 ```
 
-See the [agentc documentation](https://agentc.sh/docs) for the full guide to writing and
+See the [agentc documentation](https://docs.agentc.sh) for the full guide to writing and
 declaring tools.
 
 ## Development
