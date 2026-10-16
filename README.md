@@ -1,5 +1,9 @@
 # agentc Python TDK
 
+> **Note:** This package has been deprecated as of v0.4.0. The runtime no longer depends on external TDK packages, and the Python TDK is no longer needed to write Python tools. See the [agentc documentation](https://docs.agentc.sh/guides/write-a-tool) for the updated guide to writing Python tools.
+
+---
+
 Types for writing [agentc](https://agentc.sh) tools in Python. agentc compiles tools written
 against this package into the agent binary at build time, running them in an embedded Python
 interpreter (RustPython), which supports pure-Python packages only.
